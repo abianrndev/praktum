@@ -1,16 +1,3 @@
-# praktikumpb
+<img width="495" height="510" alt="image" src="https://github.com/user-attachments/assets/bfb21044-c0e1-4ef0-a879-f9806ed86e92" /> <br>
+<img width="504" height="664" alt="image" src="https://github.com/user-attachments/assets/7c4f4cab-521b-4ded-9bae-077988816ce7" />
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
