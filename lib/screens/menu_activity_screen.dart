@@ -142,7 +142,7 @@ class MenuActivityScreen extends StatelessWidget {
             title: const Text('Grid View'),
             onTap: () {
               Navigator.pop(context);
-              // Navigate to GridViewScreen
+              
             },
           ),
           ListTile(
@@ -150,7 +150,7 @@ class MenuActivityScreen extends StatelessWidget {
             title: const Text('Linear Layout'),
             onTap: () {
               Navigator.pop(context);
-              // Navigate to LinearLayoutScreen
+              
             },
           ),
           ListTile(
@@ -158,7 +158,7 @@ class MenuActivityScreen extends StatelessWidget {
             title: const Text('Relative Layout'),
             onTap: () {
               Navigator.pop(context);
-              // Navigate to RelativeLayoutScreen
+            
             },
           ),
           const Divider(),

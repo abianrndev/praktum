@@ -1,31 +1,35 @@
 import 'package:flutter/material.dart';
-import 'screens/grid_view_screen.dart';
-import 'screens/linear_layout_screen.dart';
-import 'screens/relative_layout_screen.dart';
-import 'screens/menu_activity_screen.dart';
+import 'package:flutter/services.dart';
+import 'screens/calculator_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const CalculatorApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class CalculatorApp extends StatelessWidget {
+  const CalculatorApp({super.key});
 
   @override
   Widget build(BuildContext context) {
+    // Set status bar style
+    SystemChrome.setSystemUIOverlayStyle(
+      const SystemUiOverlayStyle(
+        statusBarColor: Colors.transparent,
+        statusBarIconBrightness: Brightness.light,
+        systemNavigationBarColor: Color(0xFF1C1C1C),
+        systemNavigationBarIconBrightness: Brightness.light,
+      ),
+    );
+
     return MaterialApp(
-      title: 'praktikum',
-      theme: ThemeData(primarySwatch: Colors.blue),
-
-      home: const MenuActivityScreen(),
-
-      // Definisikan routes untuk navigasi
-      routes: {
-        '/menu': (context) => const MenuActivityScreen(),
-        '/grid': (context) => const GridViewScreen(),
-        '/linear': (context) => const LinearLayoutScreen(),
-        '/relative': (context) => const RelativeLayoutScreen(),
-      },
+      title: 'Kalkulator Android - Abian Nanda (2205101011)',
+      theme: ThemeData(
+        primarySwatch: Colors.orange,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        fontFamily: 'SF Pro Display',
+      ),
+      home: const CalculatorScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
